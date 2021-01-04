@@ -21,11 +21,12 @@ public class MyInterceptor implements HandlerInterceptor {
         System.out.println("==========jin  ru pre  handle ====");
         String username = request.getParameter("username");
 
-        if("111".equals(username) ) {
-            return true;
-        }else {
-            return false;
-        }
+//        if("111".equals(username) ) {
+//            return true;
+//        }else {
+//            return false;
+//        }
+        return true;
     }
 
     @Override
