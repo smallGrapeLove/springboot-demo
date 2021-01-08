@@ -7,7 +7,7 @@ import java.io.IOException;
  * @author huan.xu
  * @ClassName MyFilter
  * @date 2021/1/4 19:47
- * @Description 拦截器1
+ * @Description 过滤器
  */
 public class MyFilter implements Filter{
 
