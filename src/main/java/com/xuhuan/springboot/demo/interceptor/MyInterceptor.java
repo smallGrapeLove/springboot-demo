@@ -1,4 +1,4 @@
-package com.xuhuan.springboot.demo.Interceptor;
+package com.xuhuan.springboot.demo.interceptor;
 
 import org.springframework.lang.Nullable;
 import org.springframework.web.servlet.HandlerInterceptor;
