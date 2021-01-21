@@ -1,6 +1,6 @@
 package com.xuhuan.springboot.demo.config;
 
-import com.xuhuan.springboot.demo.Interceptor.MyInterceptor;
+import com.xuhuan.springboot.demo.Interceptor.MyInterceptor2;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
@@ -16,7 +16,7 @@ public class InterceptorConfig implements WebMvcConfigurer {
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(new MyInterceptor())
+        registry.addInterceptor(new MyInterceptor2())
                 .addPathPatterns("/**");
 //                .excludePathPatterns("/static/login.html");
     }
