@@ -1,4 +1,4 @@
-package com.xuhuan.springboot.demo.Interceptor;
+package com.xuhuan.springboot.demo.interceptor;
 
 import com.xuhuan.springboot.demo.util.RequestUtil;
 import com.xuhuan.springboot.demo.util.SignUtil;
